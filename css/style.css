@@ -1,0 +1,28 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body {
+    background-color: #bbbbbb;
+    color: #000000;
+    margin: 0;
+    
+}
+header {
+   
+   background-color:#000000;
+}
+header h1{
+    margin: 0;
+    padding: 25px;
+    text-decoration:none;
+    color: #66ff00;
+}
+main{
+    padding:20px;
+}
+main p {
+    text-align: justify;
+    padding: 15px;
+    
+}
