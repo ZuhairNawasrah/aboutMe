@@ -1,6 +1,5 @@
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
 }
 body {
     background-color: #bbbbbb;
@@ -17,12 +16,16 @@ header h1{
     padding: 25px;
     text-decoration:none;
     color: #66ff00;
+    text-align: center;
 }
 main{
     padding:20px;
 }
 main p {
     text-align: justify;
-    padding: 15px;
     
+    
+}
+footer p {
+    text-align: center;
 }
