@@ -1,4 +1,5 @@
 
+//------------------------------------Lab-02/Q-1------------------------------------------//
 let userName = prompt('What\'s your name?');
 let amIPro = prompt('Am I a professional Web Developer(Y/N)?');
 let mark=0;
@@ -9,6 +10,7 @@ if (amIPro.toUpperCase() === 'Y') {
 } else {
   alert('Nope, I am pro, but you answer with is Y');
 }
+//---------------------------------------Q-2---------------------------------------------//
 let engLevel = prompt('Am I a native english speaker(Y/N)?');
 if (engLevel.toUpperCase() === 'N') {
   alert('You already know about me by answering (' + engLevel.toUpperCase() + ')');
@@ -17,6 +19,7 @@ if (engLevel.toUpperCase() === 'N') {
 } else {
   alert('Actually I am not, you really don\'t know many things about me');
 }
+//---------------------------------------Q-3---------------------------------------------//
 let likeWork = prompt('Do I like my work(Y/N)?');
 if (likeWork.toUpperCase() === 'Y') {
   alert('As you said, of course I do ');
@@ -25,6 +28,7 @@ if (likeWork.toUpperCase() === 'Y') {
 } else {
   alert('Your answer is wrong, I really like it');
 }
+//---------------------------------------Q-4---------------------------------------------//
 let favColor = prompt('Do I like White as my favorite color(Y/N)?');
 if (favColor.toUpperCase() === 'Y') {
   alert('Yp...for sure');
@@ -34,6 +38,7 @@ if (favColor.toUpperCase() === 'Y') {
 else {
   alert('Nope...I really like it');
 }
+//---------------------------------------Q-5---------------------------------------------//
 let favMusic = prompt('Do I like Jazz as my favorite music(Y/N)?');
 if (favMusic.toUpperCase() === 'N') {
   alert('That\'s right...I hate that type a lot');
@@ -42,6 +47,7 @@ if (favMusic.toUpperCase() === 'N') {
 } else {
   alert('You have to search about me, so you learn a bit about me, because I don\'t like it ');
 }
+//------------------------------------Lab-03/Q-6-----------------------------------------//
 let attempt = 4;
 let guessNo = '';
 for (let i = 0; i < attempt; i = 0) {
@@ -67,6 +73,7 @@ if (guessNo === '9') {
 } else {
   alert('Unfortunately, you didn\'t guess the right answer, which is (9)');
 }
+//---------------------------------------Q-7---------------------------------------------//
 let favoriteColor = '';
 let colorAttempt = 6;
 let condition=true;
