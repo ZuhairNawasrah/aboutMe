@@ -7,5 +7,5 @@ Author names:
 2. **Qais Ata**
 
 **Links**:
-[Guessing game](https://zuhairnawasrah.github.io/aboutMe/)
-[Code of the game](https://github.com/ZuhairNawasrah/aboutMe)
+- [Guessing game](https://zuhairnawasrah.github.io/aboutMe/)
+- [Code of the game](https://github.com/ZuhairNawasrah/aboutMe)
