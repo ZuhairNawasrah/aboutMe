@@ -81,23 +81,23 @@ let colorArr = ['purple', 'white', 'black', 'light gary', 'green'];
 for (let i = 0; i < colorAttempt && condition; i = 0) {
   favoriteColor = prompt('Can you guess one of my favorite colors?').toLowerCase();
   switch (favoriteColor) {
-    case colorArr[0]:
-    case colorArr[1]:
-    case colorArr[2]:
-    case colorArr[3]:
-    case colorArr[4]:
-      colorAttempt -= 1;
-      mark += 1;
-      alert('Congratulations, your guess is correct!!♥♥♥');
-      condition = false;
-      if (colorAttempt > 0) {
-        alert('You still have ' + colorAttempt + ' tries');
-      }
-      break;
-    default:
-      colorAttempt -= 1;
-      alert('Nope, you didn\'t guess a correct answer, now you have ' + colorAttempt + ' tries left.');
-      break;
+  case colorArr[0]:
+  case colorArr[1]:
+  case colorArr[2]:
+  case colorArr[3]:
+  case colorArr[4]:
+    colorAttempt -= 1;
+    mark += 1;
+    alert('Congratulations, your guess is correct!!♥♥♥');
+    condition = false;
+    if (colorAttempt > 0) {
+      alert('You still have ' + colorAttempt + ' tries');
+    }
+    break;
+  default:
+    colorAttempt -= 1;
+    alert('Nope, you didn\'t guess a correct answer, now you have ' + colorAttempt + ' tries left.');
+    break;
   }
 }
 document.write(`My favorite colors are: ${colorArr}, and your mark for whole game is: ${mark}`);
