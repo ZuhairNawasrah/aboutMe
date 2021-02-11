@@ -94,13 +94,13 @@ function questSix() {
 }
 questSix();
 //---------------------------------------Q-7---------------------------------------------//
-const colorArr = ['purple', 'white', 'black', 'light gary', 'green'];
+const colorArr = ['WHITE', 'BLACK', 'LIGHT GRAY', 'PURPLE', 'BROWN'];
 function questSeven() {
   let favoriteColor = '';
   let colorAttempt = 6;
   let condition = true;
   for (let i = 0; i < colorAttempt && condition; i = 0) {
-    favoriteColor = prompt('Can you guess one of my favorite colors?').toLowerCase();
+    favoriteColor = prompt('Can you guess one of my favorite colors?').toUpperCase();
     switch (favoriteColor) {
     case colorArr[0]:
     case colorArr[1]:
