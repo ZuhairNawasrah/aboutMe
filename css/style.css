@@ -5,10 +5,8 @@ body {
     background-color: #bbbbbb;
     color: #000000;
     margin: 0;
-    
 }
 header {
-   
    background-color:#000000;
 }
 header h1{
@@ -22,9 +20,7 @@ main{
     padding:20px;
 }
 main p {
-    text-align: justify;
-    
-    
+    text-align: justify;  
 }
 footer p {
     text-align: center;
