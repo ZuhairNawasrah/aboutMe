@@ -1,27 +1,50 @@
-*{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
 body {
     background-color: #bbbbbb;
+    font-family:'Times New Roman', Times, serif;
     color: #000000;
     margin: 0;
 }
 header {
-   background-color:#000000;
+    background-color:#000000;
 }
 header h1{
+    font-size: 25px;
+    font-weight:500;
     margin: 0;
-    padding: 25px;
     text-decoration:none;
     color: #66ff00;
+    padding: 20px;
     text-align: center;
 }
 main{
+    line-height: normal;
     padding:20px;
 }
-main p {
-    text-align: justify;  
+h2 {
+    font-size: 20px;
+    font-weight:bold;
+    padding-top: 10px;
+}
+main p {  
+    padding: 5px;
+    height: auto;
 }
 footer p {
     text-align: center;
+}
+ul{
+    list-style-position: outside;
+    padding-left: 10px;
+}
+ol{
+    list-style: decimal;
+    padding-left: 30px;
+    list-style-position: outside;
+    
+}
+ul li:before{
+    font-size: 10px;
+    content:"\2764";
+    color:#000000;
+    margin-right: 10px;
 }
